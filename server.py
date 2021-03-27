@@ -9,7 +9,7 @@ sys.path.insert(
 import os
 
 # import dotenv
-from web import horse
+from app import horse
 HOST=os.environ.get("HOST", "0.0.0.0")
 PORT=int(os.environ.get("PORT", 6969))
 
@@ -21,3 +21,4 @@ if __name__ == "__main__":
 	    port=PORT,
 	    debug=True
 	)
+	horse.logger.debug("server is online !")
