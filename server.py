@@ -21,4 +21,3 @@ if __name__ == "__main__":
 	    port=PORT,
 	    debug=True
 	)
-© 2
